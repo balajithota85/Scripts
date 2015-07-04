@@ -1,4 +1,13 @@
 (function (window, undefined) {
+	
+	var author = [
+	'####   ###  #      ###    ### #####',
+	'#   # #   # #     #   #    #    #',
+	'####  ##### #     #####    #    #',
+	'#   # #   # #     #   #    #    #',
+	'####  #   #  #### #   # ###   #####'
+	].join("\n");
+
 	var apVehicleRegstrationSearchLink = "https://aptransport.in/APCFSTONLINE/Reports/VehicleRegistrationSearch.aspx";
 	var postSaverLink = "https://localhost:8443/PostSaver/postsaver";
 	var outputDirectoryName = "D:/vehicleInformation";
